@@ -1,5 +1,6 @@
-function sumar(a, b) {
-  return a + b;
+function parrafo(str){
+  return str;
 }
 
-export default sumar;
+
+export default parrafo;
