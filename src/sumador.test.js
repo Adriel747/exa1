@@ -1,7 +1,10 @@
-import parafo from "./sumador.js";
+import {parrafo,conteo} from "./sumador.js";
 
 describe("parrafo", () => {
   it("deberia devolver la cadena", () => {
-    expect(parafo("hola como estan")).toEqual("hola como estan");
+    expect(parrafo("hola como estan")).toEqual("hola como estan");
+  });
+  it("deberia devolver numero de la cadena", () => {
+    expect(conteo("hola mundo")).toEqual(10);
   });
 });
